@@ -1,0 +1,78 @@
+@charset  "utf-8";
+html{
+	font:12px '宋体';
+}
+a{
+	color: #000;
+}
+.color{
+	width: 1920px;
+	height: 850px;
+	background: url(../image/DG.png);
+    display:inline-block; 
+    vertical-align: middle;
+}
+.top{
+	background-color:#FFFFFF;
+	height: 26px;
+	width: 1920px;
+	border-bottom: 1px solid #D8D8D8; 
+}
+.top_page{
+	width: 1000px;
+	height: 26px;
+	margin:0  auto;
+}
+.top_page_r ul  li{
+       height: 26px;
+       float: left;
+       padding-left: 80px;
+       margin:0 auto;
+       font-weight: bold;
+       font-size: 20px;
+}
+.top_page_r ul li s{
+	width:15px;
+	height: 20px;
+	background: url(../image/DJ.png) 2px 0 ;
+    display:inline-block; 
+    vertical-align: middle;
+}
+.logo{
+	width: 1000px;
+	height: 200px;
+	margin:0 auto; 
+}
+.zt{
+	width: 380px;
+	padding-left:20px;
+	height: 500px;
+	margin:0 auto;
+	background:rgba(255,255,255,0.2);
+	border-radius: 7px;
+}
+.zt h1{
+    text-align: center;
+    font-height:bold;
+    padding: 50px 0  0  0;
+    color: white;  
+}
+.zt li{
+	margin-top: 10px;
+	font-size: 20px;
+	line-height: 50px;
+	margin-bottom: 30px;
+}
+
+.zt .an{
+	margin: 0 auto;
+	width: 100px;
+	height: 50px;
+}
+.zt .submit{
+	width: 100px;
+	height: 50px;
+	background-color:#F32453;
+	color: white;
+	font-size: 20px;
+}

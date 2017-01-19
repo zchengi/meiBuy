@@ -1,0 +1,89 @@
+@charset  "utf-8";
+html{
+	font:12px "微软雅黑";
+}
+a{
+	color: #000;
+}
+.color{
+	width: 1920px;
+	height: 850px;
+	background: url(../image/DG.png);
+    display:inline-block; 
+    vertical-align: middle;
+}
+.top{
+	background-color:#FFFFFF;
+	height: 26px;
+	width: 1920px;
+	border-bottom: 1px solid #D8D8D8; 
+}
+.top_page{
+	width: 1000px;
+	height: 26px;
+	margin:0  auto;
+}
+.top_page_r ul  li{
+       height: 26px;
+       float: left;
+       padding-left: 80px;
+       margin:0 auto;
+       font-weight: bold;
+       font-size: 20px;
+}
+.top_page_r ul li s{
+	width:15px;
+	height: 20px;
+	background: url(../image/DJ.png) 2px 0 ;
+    display:inline-block; 
+    vertical-align: middle;
+
+}
+.zt{
+	width: 1000px;
+	height: 250px;
+	margin: 0 auto;
+}
+.zt_b{
+	width: 400px;
+    height: 450px;
+    margin: 0 auto;
+	background: rgba(247,232,233,0.5);
+	border-radius: 8px;
+}
+.zt_b h1{
+	padding: 50px 0  0 0 ;
+	text-align: center;	
+	
+}
+.zt_b ul li{
+	font-size: 20px;
+	line-height: 20px;
+	padding: 40px 0  0  10px; 
+	margin-bottom: 30px;
+}
+.zt_b .an{
+	margin: 0 auto;
+	width: 300px;
+	height: 50px;
+}
+.zt_b .submit{
+	width: 300px;
+	height: 40px;
+	background-color:#F32453;
+	color: white;
+	font-size: 20px;
+	border-radius: 5px;
+}
+.zt_b  p{
+	margin-top: 20px;
+	text-align: center;
+	font-size:17px;	
+    text-decoration:underline;   
+}
+.zt_b p :focus{
+	color: #F32453;
+}
+.zt_b p  :active{
+	color: pink;
+}

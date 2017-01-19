@@ -1,0 +1,142 @@
+@charset  "utf-8";
+html{
+	font:12px '宋体';
+}
+a{
+	color: #000;
+}
+.top{
+	background-color:#FFFFFF;
+	height: 26px;
+	width: 1920px;
+	border-bottom: 1px solid #D8D8D8; 
+}
+.top_page{
+	width: 1000px;
+	height: 26px;
+	margin:0  auto;
+}
+.top_page_r ul  li{
+       height: 26px;
+       float: left;
+       padding-left: 80px;
+       margin:0 auto;
+       font-weight: bold;
+       font-size: 20px;
+       
+}
+.top_page_r ul li s{
+	width:15px;
+	height: 20px;
+	background: url(../image/DJ.png) 2px 0;
+    display:inline-block; 
+    vertical-align: middle;
+}
+* { 
+	padding: 0; 
+	margin: 0; 
+}
+li {
+    list-style: none; 
+}
+body { 
+	background: #fafafa; 
+}
+
+table { 
+	width: 800px;
+    margin: 10px auto 0; 
+    border-collapse: collapse; 
+    font-size: 12px; 
+    background: #fff; 
+}
+
+th , td { 
+	border: 1px solid #eee;
+	 }
+th { 
+	 padding: 10px 0;
+     font-size: 14px;  
+     background: #f6f6f6; 
+ }
+td { 
+	padding: 5px;
+	 }
+
+img { 
+	padding: 2px; 
+	float: left; 
+}
+
+td a { 
+	color: #33CCCC;
+    text-decoration:none; 
+    float: left; 
+    width: 220px; 
+    text-align: left; 
+    padding: 25px 0 0 10px; 
+}
+td a:hover { 
+	color: #006699; 
+	text-decoration: underline; 
+}
+
+span { 
+	color: #FF9900; 
+	font-weight: bold; 
+	font-size: 16px; 
+	font-family: arial; 
+}
+
+.btn { 
+	display: block; 
+	width: 43px; 
+	height: 19px; 
+	padding-left: 3px; 
+	overflow: hidden; 
+	line-height: 22px; 
+	text-align: left; 
+	background: url(../image/ico1.gif) no-repeat;
+	font-size: 12px; 
+	text-decoration: none; 
+	font-weight: normal; 
+	color: #333;
+     margin: 0 auto;
+ }
+.btn:hover { 
+	background: url(../image/ico1.gif) no-repeat 0 bottom; 
+}
+
+.btn_active { 
+	display: block; 
+	width: 43px; 
+	height: 19px; 
+	padding-left: 3px; 
+	overflow: hidden; 
+	line-height: 22px; 
+	text-align: left; 
+	background: url(../image/ico1.gif) no-repeat 0 bottom;
+	font-size: 12px; 
+	text-decoration: none; 
+	font-weight: normal;
+	color: #333; 
+	margin: 0 auto;
+	 }
+
+.btn_down { 
+	display: block; 
+	width: 43px; 
+	height: 19px; 
+	padding-left: 3px; 
+	overflow: hidden; 
+	line-height: 22px; 
+	text-align: left; 
+	background: url(../image/down.gif) no-repeat;
+	font-size: 12px; 
+	text-decoration: none; 
+	font-weight: normal; 
+	color: #333; 
+	margin: 0 auto; 
+}
+
+
